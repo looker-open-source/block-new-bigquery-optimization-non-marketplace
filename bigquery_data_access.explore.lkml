@@ -1,5 +1,4 @@
-explore: bigquery_data_access_core {
-  extension: required 
+explore: bigquery_data_access {
   view_label: "BigQuery Data Access"
 label: "BigQuery Data Access Logs"
 sql_always_where: ${bigquery_data_access_metadata_json.jobInsertion} IS NOT NULL ;;
